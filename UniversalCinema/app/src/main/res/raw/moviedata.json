@@ -1,0 +1,8 @@
+[
+  {"id":"0","anh":"harrypotter_honda1","ten":"harry & hòn đá 1","theloai":"phép thuật","dotuoi":"C1","diem":9,"trangthai":"Đang chiếu"},
+  {"id":"1","anh":"harrypotter_honda2","ten":"harry & hòn đá 2","theloai":"phép thuật","dotuoi":"C1","diem":8,"trangthai":"Đang chiếu"},
+  {"id":"2","anh":"avengers_infinity_war","ten":"avengers 4","theloai":"Hành động,giả tưởng","dotuoi":"C2","diem":7,"trangthai":"Đang chiếu"},
+  {"id":"3","anh":"iron_man_3","ten":"Iron man 3","theloai":"Hành động,giả tưởng","dotuoi":"C3","diem":9,"trangthai":"Sắp chiếu"},
+  {"id":"4","anh":"the_avengers1","ten":"Avenger 1","theloai":"Hành động,giả tưởng","dotuoi":"C4","diem":7,"trangthai":"Sắp chiếu"},
+  {"id":"5","anh":"godzilla_king_of_the_monsters","ten":"godzilla king of the monsters","theloai":"Giả tưởng","dotuoi":"16","diem":7,"trangthai":"Sắp chiếu"}
+]

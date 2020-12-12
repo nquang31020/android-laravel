@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChiTietPhim"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="270dp">
+
+                <ImageView
+                    android:id="@+id/imagePoster"
+                    android:layout_width="match_parent"
+                    android:layout_height="214dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/traitimquaivatposter" />
+
+                <ImageView
+                    android:id="@+id/imageMain"
+                    android:layout_width="123dp"
+                    android:layout_height="160dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/imagePoster"
+                    app:layout_constraintHorizontal_bias="0.057"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:srcCompat="@drawable/traitimquaivat" />
+
+                <ImageView
+                    android:id="@+id/imageStar"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="20dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageMain"
+                    app:layout_constraintStart_toEndOf="@+id/imageMain"
+                    app:layout_constraintTop_toBottomOf="@+id/imagePoster"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@android:drawable/btn_star_big_on"/>
+                <TextView
+                    android:id="@+id/txtScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@id/imageStar"
+                    app:layout_constraintTop_toBottomOf="@id/imagePoster"
+                    app:layout_constraintBottom_toBottomOf="@id/imageStar"
+                    android:text="10"
+                    android:textSize="20dp"/>
+                <ImageView
+                    android:id="@+id/imageEdit"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:layout_constraintStart_toEndOf="@id/txtScore"
+                    app:layout_constraintTop_toBottomOf="@id/imagePoster"
+                    android:layout_marginLeft="10sp"
+                    app:srcCompat="@android:drawable/ic_menu_edit"/>
+                <TextView
+                    android:id="@+id/txtChamDiem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chấm điểm"
+                    app:layout_constraintTop_toBottomOf="@id/imagePoster"
+                    app:layout_constraintStart_toEndOf="@id/imageEdit"
+                    android:textSize="16dp"/>
+                <TextView
+                    android:id="@+id/txtAge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@id/txtChamDiem"
+                    app:layout_constraintTop_toBottomOf="@id/imagePoster"
+                    android:text="18+"
+                    android:background="#FF0000"
+                    android:textColor="#FFF"
+                    android:layout_marginLeft="10sp"/>
+                <ImageView
+                    android:id="@+id/imageClock"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:layout_constraintTop_toBottomOf="@id/imageStar"
+                    app:layout_constraintStart_toEndOf="@id/imageMain"
+                    android:layout_marginLeft="21dp"
+                    android:layout_marginTop="5sp"
+                    app:srcCompat="@android:drawable/ic_menu_recent_history"/>
+                <TextView
+                    android:id="@+id/txtTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="120 phút"
+                    app:layout_constraintStart_toEndOf="@id/imageClock"
+                    app:layout_constraintTop_toBottomOf="@id/txtScore"
+                    android:textSize="17dp"/>
+                <ImageView
+                    android:id="@+id/imageCalendar"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:layout_constraintStart_toEndOf="@id/txtTime"
+                    app:layout_constraintTop_toBottomOf="@id/txtChamDiem"
+                    app:srcCompat="@android:drawable/ic_menu_my_calendar"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginLeft="5sp"/>
+                <TextView
+                    android:id="@+id/txtDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/imageCalendar"
+                    app:layout_constraintTop_toBottomOf="@+id/txtAge"
+                    android:text="14/11/2020"
+                    android:layout_marginTop="7dp"
+                    android:textSize="16dp"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabDetailsMovie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabIndicatorColor="#FF5252"
+                app:tabMode="fixed"
+                app:tabTextColor="@android:color/black" />
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewDetailsMovie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

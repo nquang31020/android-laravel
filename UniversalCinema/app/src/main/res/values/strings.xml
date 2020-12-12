@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Universal Cinema</string>
+    <string name="slide_description">Slide picture</string>
+    <string name="background_description">Background Application</string>
+    <string name="action_home">Home</string>
+    <string name="action_theater">Theater</string>
+    <string name="action_search">Movie</string>
+    <string name="action_account">Account</string>
+    <string name="image_description">Movie Item</string>
+    <string name="imageText">Tiệc trăng máu</string>
+    <string name="movie_image">Movie Image</string>
+    <string name="movie_image_description">Movie Image Description</string>
+    <string name="th_ng_tin">Thông tin</string>
+    <string name="giao_d_ch">Giao dịch</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="thong_tin">Thông tin</string>
+    <string name="giao_dich">Giao dịch</string>
+    <string name="ten_dang_nhap">Tên đăng nhập</string>
+</resources>
